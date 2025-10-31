@@ -108,6 +108,16 @@ ddev launch /typo3/
 
 ---
 
+## Team Workflows
+
+- Check in `.ddev` (but not the `.ddev/.gitignore`)
+- Change project configuration with pull requests
+- ARM64/AMD64 architecture considerations
+- Integrating Traditional Windows folks
+
+
+---
+
 ## 🐞 Enabling Xdebug
 
 Debug your code with **Xdebug** in DDEV! 🐛
@@ -124,19 +134,6 @@ ddev xdebug on
 
 ---
 
-## 🗄️ Using PHPMyAdmin
-
-Manage your databases visually with **PHPMyAdmin**! 🗄️
-
-```bash
-ddev add-on get ddev/ddev-phpmyadmin
-ddev launch -p
-```
-
-There are so many other database browsers as well!
-
----
-
 ## 📊 Profiling with XHGui
 
 Analyze performance with **XHGui**. 📈
@@ -146,6 +143,19 @@ ddev xhgui on
 ```
 
 - Use XHGui for profiling and performance analysis 📈
+
+---
+
+## 🗄️ Using PHPMyAdmin (and other database browsers)
+
+Manage your databases visually with **PHPMyAdmin**! 🗄️
+
+```bash
+ddev add-on get ddev/ddev-phpmyadmin
+ddev phpmyadmin
+```
+
+There are so many other database browsers as well!
 
 ---
 
