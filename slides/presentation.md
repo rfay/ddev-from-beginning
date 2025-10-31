@@ -332,6 +332,16 @@ Get involved and help improve **DDEV**! 🤗
 
 ---
 
+## What's New in DDEV?
+
+---
+
+## AI and DDEV
+
+- Create a PR using Claude Code
+
+---
+
 ## 💡 Additional Topics
 
 Other advanced features and integrations. 💡
@@ -339,6 +349,14 @@ Other advanced features and integrations. 💡
 - Creating your own hosting integration
 - Creating your own add-on
 - Integrating with Apache Solr
+- DDEV in CI/CD: GitHub Actions and GitLab CI
+- VPNs, Proxies, and DNS, solving problems
+- GitHub Codespaces and other web-based dev environments
+- Basic git
+- Git worktrees
+- `git bisect` for fun and profit
+- Basics of troubleshooting and debugging
+- Team workflows
 
 ---
 
@@ -353,6 +371,20 @@ Join the vibrant **DDEV** community! 🌟
 
 ---
 
+## We're recruiting a TYPO3 maintainer!
+
+Simon Gilli used to take care of all things TYPO3 in DDEV, but we lost him somewhere.
+
+We'd love to have you step up and fill that role.
+
+---
+
+## What would YOU like to see in DDEV?
+
+- DDEV is here for you, we always want to hear from you.
+
+---
+
 ## 📚 Resources
 
 Explore more with these helpful links. 📚
@@ -361,6 +393,11 @@ Explore more with these helpful links. 📚
 - https://ddev.com
 - Tutorials and examples on GitHub
 - Community forums and chat
+
+---
+
+## Help make the DDEV project sustainable!
+
 
 ---
 
