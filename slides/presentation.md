@@ -68,6 +68,8 @@ ddev --version
 # ddev version v1.24.8
 ```
 
+---
+
 ## 🆕 Creating a New TYPO3 Project
 
 Start your first **TYPO3** project in seconds! ✨
