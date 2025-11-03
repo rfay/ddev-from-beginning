@@ -134,7 +134,15 @@ ddev xdebug on
 
 ---
 
-## 📊 Profiling with XHGui
+## Troubleshooting Xdebug
+
+- Temporarily disable firewall, VPN, virus checker, proxies
+- Get your IDE to listen on port 9003
+- Try to connect to it from inside the web container
+
+---
+
+## 📊 Performance Profiling with XHGui
 
 Analyze performance with **XHGui**. 📈
 
@@ -217,6 +225,18 @@ Take and restore **snapshots** for safe experimentation. 🕰️
 ddev snapshot --name=beforechange
 ddev snapshot restore beforechange
 ```
+
+## Using `ddev share` to let anybody see your project
+
+- Get a free ngrok account at https://ngrok.com
+- Get the token and do configuration as in docs
+- Set the `ngrok_args: "--domain <configured-domain>` in .ddev/config.yaml
+- Use `$BASE_DOMAIN` in your TYPO3 sites/*/config.yaml `base`
+- 
+- `ddev share` will create a public URL for your project
+- Visit the URL to see your project
+- `ddev share` will keep the URL up to date as you make changes
+- `ddev share --unshare` will stop sharing the URL
 
 ---
 
