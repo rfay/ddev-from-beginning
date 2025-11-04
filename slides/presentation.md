@@ -147,10 +147,14 @@ ddev xdebug on
 Analyze performance with **XHGui**. 📈
 
 ```bash
+ddev config global --xhprof-mode=xhgui
 ddev xhgui on
 ```
 
 - Use XHGui for profiling and performance analysis 📈
+- Enable capture with `ddev xhgui on`
+- Visit things
+- `ddev xhgui` to launch the run browser
 
 ---
 
