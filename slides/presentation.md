@@ -270,7 +270,7 @@ Tips for solving common **DDEV** issues. 🩺
 
 Build your own **DDEV add-ons** for custom needs! 🛠️
 
-- How to create and publish custom add-ons 🛠️
+- How to [create and publish custom add-ons](https://notion.so/native/Contributor-Training-Add-ons-creating-maintaining-testing-1040f7d007c94bef8669a400a2437c98?source=copy_link0) 🛠️
 - Structure and configuration of add-ons
 - Best practices for maintainability
 - Example: Creating a Redis add-on
