@@ -21,12 +21,27 @@ Let’s see why local is better! 🏡
 
 ## 🚀 Why Use DDEV?
 
-Here’s why **DDEV** is a game changer! 🐳
+Here’s what makes **DDEV** so special 🐳
 
 - Simple **Docker-based** local dev environment ✅  
 - Supports multiple CMS and frameworks  
 - Easy setup and configuration  
 - Consistent environments across teams 🤝  
+
+--- 
+
+## Open Source and Community-Driven
+
+- Like TYPO3, DDEV is a free and open source, community-driven project. Anybody can contribute!
+- This is a huge strength, because the community has been leading feature ideas for so long.
+- The users are who matter.
+
+---
+
+### DDEV and TYPO3
+
+TYPO3 was one of the earliest adopters of DDEV, incorporating it into their official docs many, many years ago.
+
 
 ---
 
