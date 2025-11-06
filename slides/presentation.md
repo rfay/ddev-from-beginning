@@ -28,7 +28,7 @@ Here’s what makes **DDEV** so special 🐳
 - Easy setup and configuration  
 - Consistent environments across teams 🤝  
 
---- 
+---
 
 ## Open Source and Community-Driven
 
