@@ -171,6 +171,36 @@ ddev xhgui on
 - Visit things
 - `ddev xhgui` to launch the run browser
 
+
+---
+
+## Marcus requests
+
+- DDEV-Add-On: How to create it.
+- Using docker images from a private docker registry with "docker login"
+- Customizing "ddev describe" (for additional containers for example or additional notes)
+- Using a fixed port across ddev in custom containers (like with mailpits 8026)
+- Custom docker networks spanning multiple projects
+- "The power of ddev commands"  I used it only for simple stuff like setting up a development site in "command/host".  May you can show more complex examples.
+
+---
+
+## Wolfram Requests
+
+- I think, add-on development would be interesting as well as ddev + production. We do not use it in production but base that on the same container config etc. In general, I guess that more advanced topics are of more interest than „Getting started“. CI/CD, Git-workflows, Contributing, maybe even your take on AI+DDEV
+- I do not want to speak for my colleagues, but an overall better understanding of the technology would be a perfect outcome. Rush through the basics and pick 2-3 advanced topics of what ddev can do or where it can help in a professional setup.
+
+---
+
+## Sebastian requests
+
+- Performance Profiling with XHGui
+- Pulling from and Pushing to Hosting/Production
+- Git Workflows and Shared Development
+- Handling database and file synchronization
+- CI/CD and Automated Testing with DDEV
+- DDEV Add-on Creation Deep Dive
+
 ---
 
 ## 🗄️ Using PHPMyAdmin (and other database browsers)
@@ -337,6 +367,21 @@ Collaborate using **Git** and **DDEV** for smooth teamwork. 🔗
 - Sharing configuration and environment files
 - Handling database and file synchronization
 - Integrating with feature branches and CI
+
+With TYPO3:
+1. `git worktree add`
+2. Make sure that the `name` variable is not there in .ddev/config.yaml so takes the name of the directory
+3. ddev composer install
+4. ddev composer require b13/host-variants if not there, and:
+  ```
+    - base: '%env(DDEV_PRIMARY_URL)%'
+      condition: 'host == "%env(DDEV_HOSTNAME)%"'
+   ```
+
+4. ddev restart
+5. ddev copy-db to get the other database
+6. ddev typo3 cache:flush
+7. ddev launch /typo3
 
 ---
 
