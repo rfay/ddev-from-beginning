@@ -4,7 +4,7 @@ This repository contains a presentation built with [reveal.js](https://revealjs.
 
 ## 🎯 View the Presentation
 
-**👉 [View Live Presentation](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/)**
+**👉 [View Live Presentation](https://rfay.github.io/ddev-from-beginning/)**
 
 After setup, this link will automatically point to your GitHub Pages deployment.
 
